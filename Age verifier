@@ -1,0 +1,11 @@
+valid = False
+while not valid:
+    try:
+        n = int(input("Enter an age:"))
+        
+        while n >=20:
+            print("Validated")
+            
+        valid = True
+    except ValueError:
+        print("Invalid")
